@@ -1,0 +1,54 @@
+[project]
+name = "survey-simulations"
+authors = [{name = "Stefan Krsteski"}]
+version = "0.1.0"
+description = "Valid Survey Simulations with Limited Human Data: The Roles of Prompting, Fine-Tuning, and Rectification (ACL 2026)."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "datasets>=2.19.0",
+    "faiss-cpu>=1.11.0",
+    "fuzzywuzzy>=0.18.0",
+    "hnswlib>=0.8.0",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.1",
+    "nltk>=3.9.1",
+    "numpy>=2.2.5",
+    "openai>=1.77.0",
+    "pandas>=2.2.3",
+    "peft>=0.17.1",
+    "pot>=0.9.5",
+    "ppi-python>=0.2.3",
+    "protobuf>=6.30.2",
+    "python-dotenv>=1.1.0",
+    "pyyaml>=6.0.2",
+    "rapidfuzz>=3.13.0",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.2",
+    "seaborn>=0.13.2",
+    "sentence-transformers>=4.1.0",
+    "sentencepiece>=0.2.0",
+    "spacy>=3.8.5",
+    "tiktoken>=0.9.0",
+    "torch>=2.7.0",
+    "tqdm>=4.67.1",
+    "transformers>=4.51.3",
+    "typer>=0.15.3",
+    "whoosh>=2.7.4",
+    "wikipedia-api>=0.8.1",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 99
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "Q", "I"]
+ignore = ["E203", "E501"]

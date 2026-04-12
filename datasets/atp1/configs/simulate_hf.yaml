@@ -1,0 +1,7 @@
+use_hf: true
+temperature: 0.7
+hf_model: Qwen/Qwen2.5-7B-Instruct
+output_file: outputs/simulated_data/qwen/ft.csv
+batch_size: 128
+debug: false
+concept_guided: false

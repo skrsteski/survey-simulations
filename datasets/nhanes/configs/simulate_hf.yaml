@@ -1,0 +1,14 @@
+use_hf: true
+temperature: 0.7
+hf_model: mistralai/Mistral-7B-Instruct-v0.3
+grounder_model: gpt-4o-mini
+grounder_temperature: 0.0
+retrieval_type: nutrition
+retrieval:
+  first_stage_top_k: 40
+  second_stage_top_k: 1
+output_file: outputs/simulated_data/mistral/ft.csv
+batch_size: 128
+debug: false
+concept_guided: false
+one_shot: false

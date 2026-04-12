@@ -1,0 +1,13 @@
+use_hf: false
+openai_model: gpt-4o-mini
+grounder_model: gpt-4o-mini
+grounder_temperature: 0.0
+retrieval_type: nutrition
+retrieval:
+  first_stage_top_k: 40
+  second_stage_top_k: 1
+output_file: outputs/simulated_data/gpt4o-mini/concept_guided.csv
+batch_size: 10
+debug: false
+concept_guided: false
+one_shot: true
