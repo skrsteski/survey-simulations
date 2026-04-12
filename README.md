@@ -1,6 +1,6 @@
 # Valid survey simulations with limited human data
 
-[Stefan Krsteski](https://github.com/Stefanstud)<sup>1</sup>, Giuseppe Russo<sup>1,2</sup>, Serina Chang<sup>3</sup>, Robert West<sup>1</sup>, Kristina Gligorić<sup>4</sup>
+Stefan Krsteski<sup>1</sup>, Giuseppe Russo<sup>1,2</sup>, Serina Chang<sup>3</sup>, Robert West<sup>1</sup>, Kristina Gligorić<sup>4</sup>
 
 <sup>1</sup>EPFL &nbsp; <sup>2</sup>Stanford University &nbsp; <sup>3</sup>UC Berkeley &nbsp; <sup>4</sup>Johns Hopkins University
 
