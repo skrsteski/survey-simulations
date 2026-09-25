@@ -51,6 +51,12 @@ axolotl train datasets/atp1/configs/finetune_qwen.yaml
 
 For SubPOP fine-tuning, see the [SubPOP repository](https://github.com/JosephJeesungSuh/subpop).
 
+### ATP coding
+
+> [!NOTE]
+> The evaluation uses **Q1: A–E → 4–0** and **Q2: A–D → 4–1**, with higher scores indicating more positive responses. These mappings differ from the ascending mapping presented in the paper. “Not sure” and refused responses are treated as missing. See the [Q1](datasets/atp1/evaluate.py) and [Q2](datasets/atp2/evaluate.py) evaluators for the exact mappings.
+>
+> Relative error provides a unit-free metric across NHANES (kcal) and ATP (ordinal scores), but depends on the coding's starting value. Consistently shifting or reversing the same responses preserves absolute estimation errors and ESS gains, while percentage errors can change because they are normalized by the coded true mean. Retain the implemented mappings when reproducing the evaluation.
 
 ## Citation
 

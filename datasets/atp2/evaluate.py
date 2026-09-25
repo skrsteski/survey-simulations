@@ -10,6 +10,8 @@ from synrec.metrics import reset_rng
 DATASET_NAME = "atp2"
 DATA_PATH = Path("data/human_test.csv")
 
+# higher scores mean more positive responses: Q1 uses 0-4, while Q2 uses 1–4
+# keep this coding for reproducibility as shifting it changes percentage errors
 RESPONSE_MAP = {
     "A": 4,       # Excellent
     "B": 3,       # Good

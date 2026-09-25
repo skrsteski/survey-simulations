@@ -186,3 +186,6 @@ data/fndds/with_groups.json
 *.dpo.jsonl
 misc/
 paper/
+
+/answer
+/paper.tex
